@@ -1,0 +1,13 @@
+C:\My Study Projects\DotNet Core\Sample Console App\TestClassLibrary1\bin\Debug\net8.0\TestClassLibrary1.deps.json
+C:\My Study Projects\DotNet Core\Sample Console App\TestClassLibrary1\bin\Debug\net8.0\TestClassLibrary1.dll
+C:\My Study Projects\DotNet Core\Sample Console App\TestClassLibrary1\bin\Debug\net8.0\TestClassLibrary1.pdb
+C:\My Study Projects\DotNet Core\Sample Console App\TestClassLibrary1\obj\Debug\net8.0\TestClassLibrary1.csproj.AssemblyReference.cache
+C:\My Study Projects\DotNet Core\Sample Console App\TestClassLibrary1\obj\Debug\net8.0\TestClassLibrary1.GeneratedMSBuildEditorConfig.editorconfig
+C:\My Study Projects\DotNet Core\Sample Console App\TestClassLibrary1\obj\Debug\net8.0\TestClassLibrary1.AssemblyInfoInputs.cache
+C:\My Study Projects\DotNet Core\Sample Console App\TestClassLibrary1\obj\Debug\net8.0\TestClassLibrary1.AssemblyInfo.cs
+C:\My Study Projects\DotNet Core\Sample Console App\TestClassLibrary1\obj\Debug\net8.0\TestClassLibrary1.csproj.CoreCompileInputs.cache
+C:\My Study Projects\DotNet Core\Sample Console App\TestClassLibrary1\obj\Debug\net8.0\TestClassLibrary1.sourcelink.json
+C:\My Study Projects\DotNet Core\Sample Console App\TestClassLibrary1\obj\Debug\net8.0\TestClassLibrary1.dll
+C:\My Study Projects\DotNet Core\Sample Console App\TestClassLibrary1\obj\Debug\net8.0\refint\TestClassLibrary1.dll
+C:\My Study Projects\DotNet Core\Sample Console App\TestClassLibrary1\obj\Debug\net8.0\TestClassLibrary1.pdb
+C:\My Study Projects\DotNet Core\Sample Console App\TestClassLibrary1\obj\Debug\net8.0\ref\TestClassLibrary1.dll

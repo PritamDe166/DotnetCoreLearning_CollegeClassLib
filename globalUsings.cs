@@ -3,4 +3,10 @@ global using System.Collections.Generic;
 global using System.Linq;
 global using System.Text;
 global using System.Threading.Tasks;
-
+global using MongoDB.Bson;
+global using MongoDB.Bson.Serialization.Attributes;
+global using Microsoft.Extensions.DependencyInjection;
+global using CollegeClassLib.DBInfra;
+global using CollegeClassLib.Service;
+global using CollegeClassLib.Models;
+global using MongoDB.Driver;

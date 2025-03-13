@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\My Study Projects\\DotNet Core\\Sample Console App\\TestClassLibrary1\\TestClassLibrary1.csproj": {}
+    "C:\\My Study Projects\\DotNet Core\\Sample Console App\\TestClassLibrary1\\CollegeClassLib.csproj": {}
   },
   "projects": {
-    "C:\\My Study Projects\\DotNet Core\\Sample Console App\\TestClassLibrary1\\TestClassLibrary1.csproj": {
+    "C:\\My Study Projects\\DotNet Core\\Sample Console App\\TestClassLibrary1\\CollegeClassLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\My Study Projects\\DotNet Core\\Sample Console App\\TestClassLibrary1\\TestClassLibrary1.csproj",
-        "projectName": "TestClassLibrary1",
-        "projectPath": "C:\\My Study Projects\\DotNet Core\\Sample Console App\\TestClassLibrary1\\TestClassLibrary1.csproj",
+        "projectUniqueName": "C:\\My Study Projects\\DotNet Core\\Sample Console App\\TestClassLibrary1\\CollegeClassLib.csproj",
+        "projectName": "CollegeClassLib",
+        "projectPath": "C:\\My Study Projects\\DotNet Core\\Sample Console App\\TestClassLibrary1\\CollegeClassLib.csproj",
         "packagesPath": "C:\\Users\\pritam\\.nuget\\packages\\",
         "outputPath": "C:\\My Study Projects\\DotNet Core\\Sample Console App\\TestClassLibrary1\\obj\\",
         "projectStyle": "PackageReference",
