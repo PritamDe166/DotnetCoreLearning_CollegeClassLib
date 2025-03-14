@@ -1,13 +1,9 @@
 ﻿namespace CollegeClassLib.Provider;
 
-public interface IStudentProvider
-{
-    void GetStudentList();
-}
 public class StudentProvider : IStudentProvider
 {
-    public void GetStudentList()
+    public string GetStudentList()
     {
-        
+        return "I am here";   
     }
 }
