@@ -2,5 +2,5 @@
 
 public interface IStudentService
 {
-    string GetStudentsList();
+    Task<IEnumerable<Student>> GetStudentsListAsync();
 }

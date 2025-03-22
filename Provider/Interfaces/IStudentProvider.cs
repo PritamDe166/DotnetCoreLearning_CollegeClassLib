@@ -1,6 +1,8 @@
-﻿namespace CollegeClassLib.Provider.Interfaces;
+﻿using Microsoft.EntityFrameworkCore;
+
+namespace CollegeClassLib.Provider.Interfaces;
 
 public interface IStudentProvider
 {
-    string GetStudentList();
+    Task<List<Student>> GetAllStudentsAsync();
 }

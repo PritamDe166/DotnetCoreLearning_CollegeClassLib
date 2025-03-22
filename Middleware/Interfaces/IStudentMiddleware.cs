@@ -2,5 +2,5 @@
 
 public interface IStudentMiddleware
 {
-    string GetStudentsList();
+    Task<List<Student>> GetAllStudentsAsync();
 }

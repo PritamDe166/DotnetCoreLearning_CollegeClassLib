@@ -2,8 +2,8 @@
 
 public class StudentService(IStudentMiddleware studentMiddleware) : IStudentService
 {
-    public string GetStudentsList()
+    public async Task<IEnumerable<Student>> GetStudentsListAsync()
     {
-        return studentMiddleware.GetStudentsList();
+        return await studentMiddleware.GetAllStudentsAsync();
     }
 }

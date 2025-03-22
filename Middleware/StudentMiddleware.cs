@@ -1,8 +1,8 @@
 ﻿namespace CollegeClassLib.Middleware;
 public class StudentMiddleware(IStudentProvider studentProvider) : IStudentMiddleware
 {
-    public string GetStudentsList()
+    public Task<List<Student>> GetAllStudentsAsync()
     {
-        return studentProvider.GetStudentList();
+        return studentProvider.GetAllStudentsAsync();
     }
 }

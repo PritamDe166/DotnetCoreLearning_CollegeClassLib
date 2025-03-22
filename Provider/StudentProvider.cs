@@ -1,9 +1,12 @@
-﻿namespace CollegeClassLib.Provider;
+﻿
+namespace CollegeClassLib.Provider;
 
-public class StudentProvider : IStudentProvider
+public class StudentProvider(SchoolDbContext context) : IStudentProvider
 {
-    public string GetStudentList()
+    private readonly SchoolDbContext _context = context;
+
+    public async Task<List<Student>> GetAllStudentsAsync()
     {
-        return "I am here";   
+        return await _context.Students.ToListAsync();
     }
 }

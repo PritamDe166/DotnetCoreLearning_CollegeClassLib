@@ -2,23 +2,11 @@
 
 public class Student
 {
-    [BsonId]
-    [BsonRepresentation(BsonType.ObjectId)]
-    public string? Id { get; set; }
-
-    [BsonElement("enrollment_id")]
-    public string? EnrollmentId { get; set; }
-
-    [BsonElement("student_id")]
-    public string? StudentId { get; set; }
-
-    [BsonElement("course_id")]
-    public string? CourseId { get; set; }
-
-    [BsonElement("enrollment_date")]
-    [BsonRepresentation(BsonType.String)]
-    public string? EnrollmentDate { get; set; }
-
-    [BsonElement("status")]
-    public string? Status { get; set; }
+    public int Id { get; set; }
+    public string Name { get; set; } = string.Empty;
+    public int Age { get; set; }
+    public string Email { get; set; } = string.Empty;
+    public DateTime EnrollmentDate { get; set; } = DateTime.UtcNow;
+    public int CourseId { get; set; }
+    public Course Course { get; set; } = null!;
 }
