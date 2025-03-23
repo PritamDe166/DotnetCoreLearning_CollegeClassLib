@@ -1,15 +1,23 @@
 ﻿
-
 namespace CollegeClassLib;
 public static class ServiceCollectionExtensions
 {
     public static IServiceCollection AddStudentServices(this IServiceCollection services)
     {
+        
+        // Register Logger
+        services.AddLogging(loggingBuilder =>
+        {
+            loggingBuilder.ClearProviders();
+            loggingBuilder.AddConsole();
+            loggingBuilder.AddDebug();
+        });
+
         //register services
         services.AddTransient<IStudentService, StudentService>();
         services.AddTransient<IStudentMiddleware, StudentMiddleware>();
         services.AddTransient<IStudentProvider, StudentProvider>();
-
+        
         //register db context
         services.AddDbContext<SchoolDbContext>(options =>
                 options.UseInMemoryDatabase("InMemoryDb"));
@@ -33,6 +41,7 @@ public static class ServiceCollectionExtensions
             SeedInstructors(context);
             SeedEnrollments(context);
         }
+
     }
 
     private static void SeedDepartments(SchoolDbContext context)

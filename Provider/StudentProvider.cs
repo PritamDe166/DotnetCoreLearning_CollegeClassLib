@@ -1,12 +1,11 @@
 ﻿
 namespace CollegeClassLib.Provider;
 
-public class StudentProvider(SchoolDbContext context) : IStudentProvider
+public class StudentProvider(SchoolDbContext _context, ILogger<StudentProvider> _logger) : IStudentProvider
 {
-    private readonly SchoolDbContext _context = context;
-
     public async Task<List<Student>> GetAllStudentsAsync()
     {
+        _logger.LogInformation("GetAllStudentsAsync in StudentProvider called");
         return await _context.Students.ToListAsync();
     }
 }
